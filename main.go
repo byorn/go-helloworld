@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/byorn/go-helloworld/util"
+	util2 "github.com/byorn/test-go-modules/util"
 )
 
 func main() {
@@ -46,7 +47,7 @@ func main() {
 
 	//testGoRoutinesAndChannels()
 	fmt.Println(util.DoSomethingFunkyUtilMethodInAnotherPackage())
-
+	fmt.Println(util2.ThisIsSomeMethodToBeCalledFromAnotherRepository())
 }
 
 func printPointer(namePointer *string) {
