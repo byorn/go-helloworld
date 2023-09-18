@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -41,7 +43,8 @@ func main() {
 
 	//testFunc()
 
-	testGoRoutinesAndChannels()
+	//testGoRoutinesAndChannels()
+
 }
 
 func printPointer(namePointer *string) {
