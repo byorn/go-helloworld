@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TestNewDeck in deck_test.go (2)" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
+    <module name="HelloWorld" />
+    <working_directory value="$PROJECT_DIR$" />
+    <kind value="DIRECTORY" />
+    <directory value="$PROJECT_DIR$" />
+    <filePath value="$PROJECT_DIR$/deck_test.go" />
+    <framework value="gotest" />
+    <pattern value="^\QTestNewDeck\E$" />
+    <method v="2" />
+  </configuration>
+</component>
